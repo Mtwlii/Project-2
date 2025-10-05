@@ -268,11 +268,13 @@ h3 {
     margin-top: 50px;
     padding: 0 20px;
 }
+
 .rev h2 {
     font-size: 36px;
     color: #030303;
     margin-bottom: 20px;
 }
+
 .rev p {
     font-size: 20px;
     color: #666;
@@ -280,4 +282,236 @@ h3 {
     max-width: 800px;
     margin: auto;
     padding: 0 20px;
+}
+
+/* members */
+.members {
+    display: flex;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.members .member:first-child {
+    width: 33.33%;
+    padding: 30px;
+    margin: 10px;
+    border: #BEDBFF solid 1px;
+    border-radius: 7px;
+
+}
+
+.members .member:nth-child(2) {
+    width: 33.33%;
+    padding: 30px;
+    margin: 10px;
+    border: #A4F4CF solid 1px;
+    border-radius: 7px;
+
+}
+
+.members .member:last-child {
+    width: 33.33%;
+    padding: 30px;
+    margin: 10px;
+    border: #E9D4FF solid 1px;
+    border-radius: 7px;
+
+}
+
+.members img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.members h4 {
+    font-size: 20px;
+    color: #030303;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+}
+
+.members p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.memberImg {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.portfolio p {
+    line-height: 1.6;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #F1F5F9;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 50px 20px;
+    border: #E2E8F0 solid 2px;
+
+}
+
+.statistics h2 {
+    font-size: 36px;
+    color: #030303;
+    margin-bottom: 10px;
+
+}
+
+.forForm {
+    margin: 100px 50px;
+
+}
+
+.forText {
+
+    text-align: center;
+}
+
+///* ...existing code... */
+
+.form {
+    background: #f8fafc;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    flex: 1;
+}
+
+.form-group label {
+    font-size: 16px;
+    color: #222;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+    padding: 12px 14px;
+    border: 1.5px solid #d1d5dc;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #fff;
+    transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #155dfc;
+    outline: none;
+}
+
+.form-btn {
+    width: 100%;
+    background: #000000;
+    color: #fff;
+    border: none;
+    padding: 15px 0;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.form-group textarea {
+    padding: 12px 14px;
+    border: 1.5px solid #d1d5dc;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #fff;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.footer {
+    background-color: #101828;
+    color: #99A1AF;
+    padding: 5%;
+}
+
+.forFooter {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    border-bottom: #99A1AF solid 1px;
+}
+
+.fitCore h3 {
+    color: white;
+    margin-bottom: 20x;
+    font-size: x-large;
+}
+
+.footer a,
+ul {
+    color: #99A1AF;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.fitCore {
+    width: 50%;
+    padding-bottom: 50px;
+
+}
+.links h4{
+    color: white;
+    padding-left: 20px;
+        padding-bottom: 20px;
+}
+.contact h4{
+    color: white;
+    padding-bottom: 20px;
+}
+.links {
+    width: 25%;
+    padding: 10px;
+}
+
+.contact {
+    width: 25%;
+    padding-left: 10px;
+}
+
+ul,li {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 8px;
+}
+h5{
+    color: white;
+}
+.end{
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
